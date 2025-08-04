@@ -1,91 +1,67 @@
-Privacy Policy
-Effective Date: June 10, 2025
 
-This Privacy Policy is provided by Inveritas (“we,” “our,” or “us”) and explains how we collect, use, and protect your information when you use our mobile application(s).
+Privacy Policy – last updated Aug 4 2025
+(Initial effective date Jun 10 2025)
 
-1. Information We Collect
-Through integration with third-party SDKs such as TinySauce, we may collect:
+Endrit Xhemaili (“we”, “our”, “us”) explains what data our mobile apps collect, why, and how you can control it.
 
-Gameplay data (e.g., score, session time)
+⸻
 
-Device information (e.g., model, OS version)
+1 . Data We Collect
 
-Advertising ID (for analytics and ad monetization)
+Category	Examples	SDK / Source	Purpose	Linked to user?*
+Gameplay events	score, session length	TinySauce, GameAnalytics	Balance & A/B tests	No
+Device info	model, OS, locale	TinySauce	Crash triage	No
+Advertising ID	IDFA / GAID	TinySauce, Adjust	Ad targeting & attribution	Yes (resettable)
+Crash logs	stack traces, FPS	GameAnalytics	Stability	No
 
-Crash logs and performance metrics
+* “Linked” = Apple’s sense of device-level tracking.
 
-This data is collected anonymously and used to improve user experience and optimize the game.
+We do not collect names, emails, contacts, photos, or precise location, and we never sell data.
 
-2. How We Use Your Information
-We use this information to:
+⸻
 
-Improve gameplay and performance
+2 . How We Use It
+	•	Improve gameplay and performance.
+	•	Analyse behaviour to cut what doesn’t work.
+	•	Serve ads and measure revenue / installs.
 
-Analyze user behavior
+⸻
 
-Serve relevant advertisements
+3 . Platform Rules
+	•	iOS 14.5+ – we show App Tracking Transparency before accessing IDFA.
+	•	Android 13+ – we declare com.google.android.gms.permission.AD_ID and honour resets/opt-outs.
+	•	GDPR / CCPA – consent dialog at first launch; data is anonymised/pseudonymised.
 
-We do not collect personal information such as your name, email, or contacts through this app.
+⸻
 
-3. Advertising ID Compliance (Android 13+)
-To comply with Google Play policies, our app targets Android 13+ and includes:
+4 . Third-Party Services & Opt-Out
 
-php-template
-Copy
-Edit
-<uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
-We also declare in the Play Console’s App content → Advertising ID section that we collect and use the Advertising ID for analytics and advertising purposes, in full compliance with Google policies and user privacy controls 
-developers.google.com
-+14
-support.google.com
-+14
-stackoverflow.com
-+14
-medium.com
-community.niotron.com
-+3
-docs.flutterflow.io
-+3
-stackoverflow.com
-+3
-.
+Service	Opt-out / Deletion
+TinySauce	support@tinysauce.tech
+GameAnalytics	privacy@gameanalytics.com
+Adjust	privacy@adjust.com
+Voodoo (publishing)	privacy@voodoo.io
 
-4. Third-Party Services
-This app includes the TinySauce SDK, which processes data in compliance with standard privacy regulations. If other SDKs or analytics tools are integrated, they are subject to their own respective privacy policies.
 
-5. Children’s Privacy
-Our games are not directed toward children under the age of 13. We do not knowingly collect personal data from children. If we become aware of inadvertent collection, we will delete such information promptly.
+⸻
 
-6. Request User Data Deletion
-When you install and use Inveritas mobile applications, we may collect and process data for legitimate purposes.
+5 . Children
 
-Why is data collected?
-To provide the services you requested
+Our apps are not directed to users under 13. If we learn we’ve collected such data, we delete it.
 
-To analyze how users interact with our product and continuously improve them
+⸻
 
-Third-party partners we may share data with:
-GameAnalytics
+6 . Your Choices
+	•	Delete or stop tracking: email endxapps@gmail.com with your ad ID or device ID.
+	•	Reset IDs: iOS “Reset Advertising Identifier”, Android “Delete advertising ID”.
+	•	Opt-out of personalised ads: iOS “Limit Ad Tracking”, Android “Opt out of Ads”.
 
-Facebook Analytics
+⸻
 
-Adjust
+7 . Changes
 
-Inveritas
+Future updates post here with a new “last updated” date.
 
-To request deletion of your data:
-📧 inveritas.dev@gmail.com
+⸻
 
-For deletion requests from third-party partners:
-
-GameAnalytics: privacy@gameanalytics.com | https://gameanalytics.com/privacy/#6-changing-or-deleting-your-information
-
-Facebook Analytics: No email; see https://www.facebook.com/policy.php
-
-Adjust: privacy@adjust.com | https://www.adjust.com/terms/privacy-policy/
-
-Inveritas: dpo@inveritas.io
-
-7. Changes to This Policy
-We may update this Privacy Policy from time to time. Major changes will be posted here with an updated Effective Date. Please check periodically.
-
+Questions? endxapps@gmail.com – expect a reply within 30 days.
